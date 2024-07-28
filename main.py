@@ -233,7 +233,7 @@ class Menu:
         3. Using the package "pillow" (https://pillow.readthedocs.io/en/stable/index.html) 
         resize the image to 300x200 pixels
         4. Save the image locally
-        5. You should create a requirements.txt with pillow as a dependency to the project
+        5.create a requirements.txt with pillow as a dependency to the project
 
         Use this base URL to request an image: https://image.tmdb.org/t/p/w300/
         A full url might look like this with the poster_path added to the end: https://image.tmdb.org/t/p/w300/kqcbwRrUmkcUe6TcFWHMnobVDon.jpg
