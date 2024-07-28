@@ -99,15 +99,11 @@ class MovieDatabase:
     def list_latest_movies(self):
         # 12
         """
-        __NOT__ REQUIRED FOR G (Godkänt)
-        **ONLY START WITH THIS METHOD WHEN YOU HAVE COMPLETED ALL OTHER**
-        - VG (Väl godkänt) REQUIREMENT ONLY
-
         This method should return a list of the latest movies ordered by release_date
         Use the datetime class
         """
 
-        # Remove pass when you've added code
+      
         pass
 
 class Menu:    
@@ -228,18 +224,14 @@ class Menu:
 
     def export_poster_image(self):
         # 13 - Last one (VG)
-        """
-        - THIS METHOD IS NOT REQUIRED FOR G (Godkänt)
-        **ONLY START WITH THIS METHOD WHEN YOU HAVE COMPLETED ALL OTHER**
+        """    
 
-        - VG (Väl godkänt) REQUIREMENT ONLY
-
-        You should use the "poster_path" string to access the poster image of the movie
+       use the "poster_path" string to access the poster image of the movie
 
         1. Ask the user for a movie that they want to export the image for.
         2. Download the image with requests.
         3. Using the package "pillow" (https://pillow.readthedocs.io/en/stable/index.html) 
-        you need to resize the image to 300x200 pixels
+        resize the image to 300x200 pixels
         4. Save the image locally
         5. You should create a requirements.txt with pillow as a dependency to the project
 
@@ -247,7 +239,6 @@ class Menu:
         A full url might look like this with the poster_path added to the end: https://image.tmdb.org/t/p/w300/kqcbwRrUmkcUe6TcFWHMnobVDon.jpg
         """
 
-        # Remove pass when you've added code
         pass
 
 
